@@ -9,7 +9,7 @@ def filter_prime(numbers):
     for i in numbers:
         cnt = 0
         if (i == 2):
-            l.append(i)
+            listt.append(i)
             continue
         elif(i == 1):
             continue
@@ -17,7 +17,7 @@ def filter_prime(numbers):
             if(i % j == 0):
                 cnt += 1
         if(cnt == 0):
-            l.append(i)
-    return l
+            listt.append(i)
+    return listt
 
 print(filter_prime([2,6, 7, 9]))
