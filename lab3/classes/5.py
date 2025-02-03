@@ -18,7 +18,7 @@ class Account():
             print(f"{amount} has been withdrawn from deposit")
 
 
-own1 = Account("Kama^^")
+own1 = Account("Alua^^")
 own1.checkBal()
 own1.deposit(5000)
 own1.checkBal()
