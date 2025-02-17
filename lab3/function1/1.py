@@ -9,3 +9,8 @@ def convert(gr):
     return gr * 28.3495231
 
 print(convert(gr))
+
+
+a  = [1, 2 ,5, 8,9, 8 ]
+b = len(a)-1
+print(b)
